@@ -22,9 +22,7 @@ const Product = () => {
     useEffect(() => {
         loadData();
     }, [])
-    const detail =(id:number)=>{
-       // navigate(`/products/${id}`)
-    }
+    
   return (
     <div>
         <ul>
